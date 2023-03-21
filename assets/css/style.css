@@ -1,0 +1,230 @@
+:root {
+  --font-sans: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --bold-300: 300;
+  --bold-400: 400;
+  --bold-500: 500;
+  --bold-700: 700;
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-sans);
+}
+
+/* Inicio estilos header */
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+}
+
+.header__img {
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.header__div {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 34px;
+  text-align: center;
+  align-self: center;
+}
+
+.header__h1 {
+  font-size: 2.4rem;
+  font-weight: var(--bold-700);
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.header__p {
+  margin-top: 25px;
+  font-weight: var(--bold-500);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+.header__button {
+  position: absolute;
+  top: calc(100% - 24px);
+  left: calc(50% - 114.5px);
+  display: block;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: var(--bold-700);
+  text-decoration: none;
+  color: var(--black);
+}
+
+.header__span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("../icons/down-arrow.svg");
+}
+
+/* Fin estilos header */
+
+/* Inicio estilos main */
+
+.main {
+  width: 100vw;
+  min-width: 320px;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.mainExchange {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.mainExchange__bg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 50px auto;
+  background: url("../img/Bitcoin.svg") center/cover no-repeat;
+}
+
+.mainExchange__div {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mainExchange__h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: var(--bold-700);
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.mainExchange__p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: var(--bold-500);
+  line-height: 1.6rem;
+  color: #757575;
+}
+
+.mainExchange__content {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: var(--font-inter);
+}
+
+.mainExchange__title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: var(--bold-700);
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+  text-align: start;
+}
+
+.mainExchange__layout {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.mainExchange__table {
+  width: 100%;
+  height: 100%;
+}
+
+.mainExchange__td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: var(--bold-500);
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+}
+
+.mainExchange__td--borderTopLeft {
+  border-top-left-radius: 15px;
+}
+
+.mainExchange__td--borderBottomLeft {
+  border-bottom-left-radius: 15px;
+}
+
+.mainExchange__td--borderTopRight {
+  border-top-right-radius: 15px;
+}
+
+.mainExchange__td--borderBottomRight {
+  border-bottom-right-radius: 15px;
+}
+
+.mainExchange__td:nth-child(2n) {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+
+.mainExchange__span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background: url("../icons/trending-down.svg") center no-repeat;
+}
+
+.mainExchange__span--up {
+  background: url("../icons/trending-up.svg") center no-repeat;
+}
+
+/* Fin estilos main */
