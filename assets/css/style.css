@@ -227,4 +227,23 @@ html {
   background: url("../icons/trending-up.svg") center no-repeat;
 }
 
+.mainExchange__card {
+  width: 190px;
+  height: 30px;
+  margin: 15px auto 0 auto;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.mainExchange__text {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+
 /* Fin estilos main */
