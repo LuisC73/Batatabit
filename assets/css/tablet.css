@@ -1,0 +1,15 @@
+.mainExchange__container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.productDetail__cards {
+  width: 930px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.plansContent__slider {
+  justify-content: center;
+}
